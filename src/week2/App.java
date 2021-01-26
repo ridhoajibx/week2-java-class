@@ -1,7 +1,8 @@
+package week2;
 
 public class App {
 	public static void main(String[] args) {
-		Shape shape = new Shape() {
+		Shape shape = new Shape("kuning", false) {
 			@Override
 			double getParimeter() {
 				// TODO Auto-generated method stub

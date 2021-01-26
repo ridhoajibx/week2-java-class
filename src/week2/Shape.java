@@ -1,3 +1,4 @@
+package week2;
 
 public abstract class Shape {
 	protected String color = "red";
