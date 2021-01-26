@@ -1,4 +1,3 @@
-package week2;
 
 public class Square extends Rectangle {
 	public Square() {
@@ -6,11 +5,11 @@ public class Square extends Rectangle {
 	}
 	
 	public Square(double side) {
-		this.setWidth(side);
+		this.width = side;
 	}
 	
 	public Square(double side, String color, boolean filled) {
-		this.setWidth(side);
+		this.width = side;
 		this.color = color;
 		this.filled = filled;
 	}
