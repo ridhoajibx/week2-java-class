@@ -2,23 +2,24 @@ package week2;
 
 public class App {
 	public static void main(String[] args) {
-		Shape shape = new Shape("kuning", false) {
-			@Override
-			double getParimeter() {
-				// TODO Auto-generated method stub
-				return 2.5;
-			}
-			
-			@Override
-			double getArea() {
-				// TODO Auto-generated method stub
-				return 4.5;
-			}
-		};
+//		Shape shape = new Shape("kuning", false) {
+//			@Override
+//			double getParimeter() {
+//				// TODO Auto-generated method stub
+//				return 2.5;
+//			}
+//			
+//			@Override
+//			double getArea() {
+//				// TODO Auto-generated method stub
+//				return 4.5;
+//			}
+//		};
 		
 		Circle circle = new Circle();
 		Rectangle rectangle = new Rectangle();
 		Square square = new Square();
+		Shape shape = new Rectangle();
 		
 //		Shape Object
 		System.out.println("Shape before!");
