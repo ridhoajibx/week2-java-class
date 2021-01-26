@@ -9,7 +9,6 @@ public abstract class Shape {
 	}
 	
 	public Shape(String color, boolean filled) {
-		super();
 		this.color = color;
 		this.filled = filled;
 	}
