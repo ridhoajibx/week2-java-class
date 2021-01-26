@@ -2,24 +2,24 @@ package week2;
 
 public class App {
 	public static void main(String[] args) {
-//		Shape shape = new Shape("kuning", false) {
-//			@Override
-//			double getParimeter() {
-//				// TODO Auto-generated method stub
-//				return 2.5;
-//			}
-//			
-//			@Override
-//			double getArea() {
-//				// TODO Auto-generated method stub
-//				return 4.5;
-//			}
-//		};
+		Shape shape = new Shape("kuning", false) {
+			@Override
+			double getParimeter() {
+				// TODO Auto-generated method stub
+				return 2.5;
+			}
+			
+			@Override
+			double getArea() {
+				// TODO Auto-generated method stub
+				return 4.5;
+			}
+		};
 		
 		Circle circle = new Circle();
 		Rectangle rectangle = new Rectangle();
 		Square square = new Square();
-		Shape shape = new Rectangle();
+		Shape shape1 = new Rectangle();
 		
 //		Shape Object
 		System.out.println("Shape before!");
@@ -30,6 +30,17 @@ public class App {
 		shape.setColor("Green");
 		shape.setFilled(false);
 		System.out.println("Shape after with toString: " + "\n" + shape.toString());
+		System.out.println();
+		
+//		Shape Object
+		System.out.println("Shape1 before!");
+		System.out.println(shape1.getColor());
+		System.out.println(shape1.isFilled());
+		System.out.println(shape1.getArea());
+		System.out.println(shape1.getParimeter());
+		shape1.setColor("Green");
+		shape1.setFilled(false);
+		System.out.println("Shape1 after with toString by rectangle: " + "\n" + shape1.toString());
 		System.out.println();
 
 //		Circle object

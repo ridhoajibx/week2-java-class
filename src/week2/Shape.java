@@ -32,6 +32,8 @@ public abstract class Shape {
 	abstract double getArea();
 	abstract double getParimeter();
 	
+	
+	
 	public String toString() {
         return "Color: " + color + "\nFilled: " + filled;
     }
